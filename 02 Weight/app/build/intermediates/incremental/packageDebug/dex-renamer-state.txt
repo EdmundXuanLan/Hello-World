@@ -1,0 +1,7 @@
+#Thu Mar 02 23:24:14 CST 2017
+base.0=D\:\\QQPCmgr\\Desktop\\android02180021-master\\02 Weight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_876a91e700700ff1f0348d3e3af1a3170fefb9fa
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\QQPCmgr\\Desktop\\android02180021-master\\02 Weight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f0e05ed6330564cde0fd248a79b942122b11d201\\classes.dex
+base.1=D\:\\QQPCmgr\\Desktop\\android02180021-master\\02 Weight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f0e05ed6330564cde0fd248a79b942122b11d201
+file.0=D\:\\QQPCmgr\\Desktop\\android02180021-master\\02 Weight\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_876a91e700700ff1f0348d3e3af1a3170fefb9fa\\classes.dex

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <TableLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:collapseColumns="1">
+     <TextView
+        android:text="表一"
+        android:gravity="center"
+        />
+     <TableRow>
+          <TextView
+                android:text="列0" />
+            <TextView
+                android:text="列1" />
+     </TableRow>
+  </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TextView
+            android:text="表二"
+            android:gravity="center" />
+        <TableRow>
+                <TextView
+                    android:text="列0不能伸展" />
+                <TextView
+                    android:text="列1可以伸展"
+                    android:gravity="right" />
+        </TableRow>
+  </TableLayout>
+    
+  <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="表三"
+            android:gravity="center"/>
+        <TableRow>
+            <TextView
+                android:text="这一列很长，将造成下一列无法显示或显示不全"
+                />
+            <TextView
+                android:text="这一列被挤到了屏幕外" />
+        </TableRow>
+  </TableLayout>
+    
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="0">
+        <TextView
+            android:text="表四"
+            android:layout_gravity="center"
+            />
+        <TableRow>
+            <TextView
+                android:text="由于设置成了可收缩，所以这一列不管有多长都不会把其他列挤出去" />
+            <TextView
+                android:text="这一列会被显示完全" />
+        </TableRow>
+    </TableLayout>
+</TableLayout>

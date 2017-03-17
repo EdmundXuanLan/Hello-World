@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\FrameLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\FrameLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 48,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 59,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\FrameLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 59,
+                        "endOffset": 112
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\FrameLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\FrameLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 48,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 59,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\FrameLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 59,
+                        "endOffset": 110
+                    }
+                }
+            }
+        ]
+    }
+]

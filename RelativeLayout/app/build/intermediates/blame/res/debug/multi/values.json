@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\RelativeLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\RelativeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 51,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 62,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\androidStudy\\RelativeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 62,
+                        "endOffset": 113
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\RelativeLayout\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\RelativeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 121,
+                        "endColumn": 51,
+                        "endOffset": 168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 62,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "D:\\core\\core\\Android02180021\\android02180021\\04 Android Layout\\RelativeLayout\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 62,
+                        "endOffset": 115
+                    }
+                }
+            }
+        ]
+    }
+]

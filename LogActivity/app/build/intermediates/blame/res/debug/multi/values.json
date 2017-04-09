@@ -1,0 +1,126 @@
+[
+    {
+        "outputFile": "D:\\QQPCmgr\\Desktop\\06 DDMS\\LogActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 56,
+                    "endOffset": 107
+                },
+                "from": {
+                    "file": "D:\\QQPCmgr\\Desktop\\06 DDMS\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 56,
+                        "endOffset": 223
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 112,
+                    "endColumn": 52,
+                    "endOffset": 160
+                },
+                "from": {
+                    "file": "D:\\QQPCmgr\\Desktop\\06 DDMS\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 52,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 58,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "D:\\QQPCmgr\\Desktop\\06 DDMS\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 8,
+                        "startOffset": 112,
+                        "endColumn": 62,
+                        "endOffset": 166
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\Users\\zzm\\AndroidStudioProjects\\LogActivity\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 181,
+                        "endColumn": 48,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 59,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 59,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 61,
+                    "endOffset": 221
+                },
+                "from": {
+                    "file": "D:\\Users\\zzm\\AndroidStudioProjects\\LogActivity\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 8,
+                        "startOffset": 119,
+                        "endColumn": 65,
+                        "endOffset": 176
+                    }
+                }
+            }
+        ]
+    }
+]

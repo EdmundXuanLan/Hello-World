@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\planeicon.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-hdpi\\planeicon.png"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\aplaneicon.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-hdpi\\aplaneicon.png"
+    }
+]

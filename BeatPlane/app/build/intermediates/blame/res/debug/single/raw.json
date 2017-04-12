@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\get_goods.wav",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\get_goods.wav"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\explosion3.wav",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\explosion3.wav"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\explosion.mp3",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\explosion.mp3"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\explosion2.wav",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\explosion2.wav"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\button.wav",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\button.wav"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\shoot.mp3",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\shoot.mp3"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bigexplosion.wav",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\raw\\bigexplosion.wav"
+    }
+]

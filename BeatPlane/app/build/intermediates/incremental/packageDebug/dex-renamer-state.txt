@@ -1,0 +1,7 @@
+#Wed Apr 12 21:21:32 CST 2017
+base.0=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c7e56cfdfa98a62485d69b81e73e222791831388
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_528d1c899e2f316051a0d83cfcd467822c2cb872\\classes.dex
+base.1=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_528d1c899e2f316051a0d83cfcd467822c2cb872
+file.0=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c7e56cfdfa98a62485d69b81e73e222791831388\\classes.dex

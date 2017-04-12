@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_03.jpg",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\bg_03.jpg"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_02.jpg",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\bg_02.jpg"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\bg_01.jpg",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\bg_01.jpg"
+    }
+]

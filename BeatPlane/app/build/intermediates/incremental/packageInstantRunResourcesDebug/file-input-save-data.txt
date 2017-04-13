@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 12 21:21:12 CST 2017
+#Wed Apr 12 22:56:17 CST 2017
 25.file=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-mdpi-v4\\bullet2.png
 41.base=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\resources-debug.ap_
 25.base=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\resources-debug.ap_

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/BossBullet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/BossPlane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/Bullet.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/Bullet2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/GameGoods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/GameObject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/GameSoundPool.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/MainView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/MiddlePlane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/MyPlane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/ReadyView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/beatplane/SmallPlane.java" charset="GBK" />
+  </component>
+</project>

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 12 21:21:35 CST 2017
+#Wed Apr 12 22:56:27 CST 2017
 5.base=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c7e56cfdfa98a62485d69b81e73e222791831388
 42.base=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\resources-debug.ap_
 32.set=ANDROID_RESOURCE

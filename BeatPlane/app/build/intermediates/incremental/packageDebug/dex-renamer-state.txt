@@ -1,4 +1,4 @@
-#Wed Apr 12 22:56:27 CST 2017
+#Thu May 11 15:50:50 CST 2017
 base.0=D\:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_c7e56cfdfa98a62485d69b81e73e222791831388
 renamed.1=classes2.dex
 renamed.0=classes.dex

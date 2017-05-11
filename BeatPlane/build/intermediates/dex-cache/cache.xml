@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8e965cb69e9a758de9f546bb9936785b16878df9">
+        sha1="69f9bc7f3117c1bc0a2c5b11b474d8facc6596df">
         <dex dex="D:\core\core\Hello-World\BeatPlane\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_528d1c899e2f316051a0d83cfcd467822c2cb872\classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c826ad0057dfe5eaa66704c87f94b0d5876b5919">
+        sha1="19642a0cddb853d08e90f0b782768bfe9a1720c8">
         <dex dex="D:\core\core\Hello-World\BeatPlane\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c7e56cfdfa98a62485d69b81e73e222791831388\classes.dex" />
     </item>
     <item

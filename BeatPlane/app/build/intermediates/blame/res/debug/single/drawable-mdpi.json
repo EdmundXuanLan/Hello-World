@@ -12,6 +12,10 @@
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\myplaneexplosion1.png"
     },
     {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\abullet.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\abullet.png"
+    },
+    {
         "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\big.png",
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\big.png"
     },
@@ -28,12 +32,12 @@
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\play.png"
     },
     {
-        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\missile_bt.png",
-        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\missile_bt.png"
-    },
-    {
         "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bossplanebomb1.png",
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\bossplanebomb1.png"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\missile_bt.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\missile_bt.png"
     },
     {
         "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\planeicon.png",
@@ -100,12 +104,12 @@
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\myplane1.png"
     },
     {
-        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fly.png",
-        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\fly.png"
-    },
-    {
         "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\button2.png",
         "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\button2.png"
+    },
+    {
+        "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\fly.png",
+        "source": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\src\\main\\res\\drawable-mdpi\\fly.png"
     },
     {
         "merged": "D:\\core\\core\\Hello-World\\BeatPlane\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\button.png",

@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 10
     buildToolsVersion "25.0.2"
+    android {compileOptions.encoding = "GBK"}               /////////增加的内容，可以解决部署到设备上汉字显示乱码的问题
+
 
     defaultConfig {
         applicationId "com.example.beatplane"

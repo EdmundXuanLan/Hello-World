@@ -10,31 +10,32 @@ import android.graphics.Rect;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-/*ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ä½ï¿½ï¿½ï¿½*/
+
+/*ÓÎÏ·½áÊøÊ±µÄ½çÃæ*/
 public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runnable {
-	private Bitmap background;		//ï¿½ï¿½ï¿½ï¿½Í¼Æ¬
-	private Bitmap button;			//ï¿½ï¿½Å¥Í¼Æ¬
+	private Bitmap background;		//±³¾°Í¼Æ¬
+	private Bitmap button;			//°´Å¥Í¼Æ¬
 	private Bitmap button2;
-	private Canvas canvas;			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´
-	private Paint paint; 			// ï¿½ï¿½ï¿½ï¿½
+	private Canvas canvas;			// »­²¼×ÊÔ´
+	private Paint paint; 			// »­±Ê
 	private SurfaceHolder sfh;
-	private Thread thread;			// ï¿½ï¿½Í¼ï¿½ß³ï¿½
-	private int scoreSum;			//ï¿½ï¿½Â¼ï¿½Ü·ï¿½
+	private Thread thread;			// »æÍ¼Ïß³Ì
+	private int scoreSum;			//¼ÇÂ¼×Ü·Ö
 	private float button_x;
 	private float button_y;
 	private float button_y2;
-	private float scalex;			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÅµÄ±ï¿½ï¿½ï¿½
+	private float scalex;			//±³¾°Ëõ·ÅµÄ±ÈÀý
 	private float scaley;		
 	private float screen_width;
 	private float screen_height;
 	private boolean threadFlag;
 	private boolean isBtChange;
 	private boolean isBtChange2;
-	private String startGame = "é‡æ–°æŒ‘æˆ˜";
-	private String exitGame = "é€€å‡ºæ¸¸æˆ";
+	private String startGame = "ÖØÐÂÌôÕ½";
+	private String exitGame = "ÍË³öÓÎÏ·";
 	private MainActivity mainActivity;
 	private GameSoundPool sounds;
-	public EndView(Context context,int scoreSum) {
+	public EndView(Context context, int scoreSum) {
 		super(context);
 		// TODO Auto-generated constructor stub
 		this.mainActivity = (MainActivity) context;
@@ -59,7 +60,7 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 		// TODO Auto-generated method stub
 		screen_width = this.getWidth();
 		screen_height = this.getHeight();
-		initBitmap(); // ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ô´
+		initBitmap(); // ³õÊ¼»¯Í¼Æ¬×ÊÔ´
 		threadFlag = true;
 		thread.start();
 	}
@@ -75,7 +76,7 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 		if(event.getAction() == MotionEvent.ACTION_DOWN && event.getPointerCount() == 1){
 			float x = event.getX();
 			float y = event.getY();
-			//ï¿½Ð¶Ïµï¿½Ò»ï¿½ï¿½ï¿½ï¿½Å¥ï¿½Ç·ñ±»°ï¿½ï¿½ï¿½
+			//ÅÐ¶ÏµÚÒ»¸ö°´Å¥ÊÇ·ñ±»°´ÏÂ
 			if(x > button_x && x < button_x + button.getWidth() 
 					&& y > button_y && y < button_y + button.getHeight())
 			{
@@ -84,7 +85,7 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 				drawSelf();
 				mainActivity.toMainView();
 			}
-			//ï¿½Ð¶ÏµÚ¶ï¿½ï¿½ï¿½ï¿½ï¿½Å¥ï¿½Ç·ñ±»°ï¿½ï¿½ï¿½
+			//ÅÐ¶ÏµÚ¶þ¸ö°´Å¥ÊÇ·ñ±»°´ÏÂ
 			else if(x > button_x && x < button_x + button.getWidth() 
 					&& y > button_y2 && y < button_y2 + button.getHeight())
 			{
@@ -124,7 +125,7 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 		}
 		return false;
 	}
-	// ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
+	// ³õÊ¼»¯Í¼Æ¬
 	public void initBitmap() {
 		background = BitmapFactory.decodeResource(getResources(), R.drawable.bg_01);
 		button = BitmapFactory.decodeResource(getResources(), R.drawable.button);
@@ -135,15 +136,15 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 		button_y = screen_height/2 + button.getHeight();
 		button_y2 = button_y + button.getHeight() + 40;
 	}
-	// ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
+	// »æÍ¼º¯Êý
 	public void drawSelf() {
 		try {
 			canvas = sfh.lockCanvas();
-			canvas.drawColor(Color.BLACK); // ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½É«
+			canvas.drawColor(Color.BLACK); // »æÖÆ±³¾°É«
 			canvas.save();
-			// ï¿½ï¿½ï¿½ã±³ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Ä±ï¿½ï¿½ï¿½
+			// ¼ÆËã±³¾°Í¼Æ¬ÓëÆÁÄ»µÄ±ÈÀý
 			canvas.scale(scalex, scaley, 0, 0);
-			canvas.drawBitmap(background, 0, 0, paint);   // ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½Í¼
+			canvas.drawBitmap(background, 0, 0, paint);   // »æÖÆ±³¾°Í¼
 			canvas.restore();
 			if(isBtChange){
 				canvas.drawBitmap(button2, button_x, button_y, paint);  
@@ -159,15 +160,15 @@ public class EndView extends SurfaceView implements SurfaceHolder.Callback,Runna
 			}
 			paint.setTextSize(40);
 			Rect rect = new Rect();      
-			//ï¿½ï¿½ï¿½Ø°ï¿½Î§ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Ò»ï¿½ï¿½Rectï¿½ï¿½ï¿½ï¿½     
+			//·µ»Ø°üÎ§Õû¸ö×Ö·û´®µÄ×îÐ¡µÄÒ»¸öRectÇøÓò     
 			paint.getTextBounds(startGame, 0, startGame.length(), rect);    		   
 			float strwid = rect.width();    
 			float strhei = rect.height();   
 			canvas.drawText(startGame, screen_width/2 - strwid/2, button_y + button.getHeight()/2 + strhei/2, paint);
 			canvas.drawText(exitGame, screen_width/2 - strwid/2, button_y2 + button.getHeight()/2 + strhei/2, paint);
 			paint.setTextSize(60);
-			float textlong = paint.measureText("æ€»åˆ†:"+String.valueOf(scoreSum));
-			canvas.drawText("ï¿½æ€»åˆ†:"+String.valueOf(scoreSum), screen_width/2 - textlong/2, screen_height/2 - 100, paint);
+			float textlong = paint.measureText("×Ü·Ö:"+String.valueOf(scoreSum));
+			canvas.drawText("×Ü·Ö:"+String.valueOf(scoreSum), screen_width/2 - textlong/2, screen_height/2 - 100, paint);
 		} 
 		catch (Exception err) {
 			err.printStackTrace();

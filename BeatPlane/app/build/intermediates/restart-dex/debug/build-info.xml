@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="22"
-    density="xxhdpi"
+    abi="x86"
+    api-level="25"
+    density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="277412000829039"
+    timestamp="839261252422565"
     token="-624664858318581987"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="366" />
+        duration="1112" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="398" />
+        duration="606" />
     <task
         name="verifier"
-        duration="27" />
+        duration="38" />
 
     <artifact
         location="D:\core\core\Hello-World\BeatPlane\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="277412000829039"
+        timestamp="839261252422565"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\core\core\Hello-World\BeatPlane\app\build\outputs\apk\app-debug.apk"

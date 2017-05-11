@@ -10,17 +10,18 @@ import android.graphics.Rect;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
-/*ï¿½ï¿½Ï·ï¿½ï¿½Ê¼Ç°ï¿½Ä½ï¿½ï¿½ï¿½*/
+
+/*ÓÎÏ·¿ªÊ¼Ç°µÄ½çÃæ*/
 public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Runnable {
 	private Bitmap background;
 	private Bitmap text;
 	private Bitmap fly;
 	private Bitmap button;
 	private Bitmap button2;
-	private Canvas canvas;			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´
-	private Paint paint; 			// ï¿½ï¿½ï¿½ï¿½
+	private Canvas canvas;			// »­²¼×ÊÔ´
+	private Paint paint; 			// »­±Ê
 	private SurfaceHolder sfh;
-	private Thread thread;			// ï¿½ï¿½Í¼ï¿½ß³ï¿½
+	private Thread thread;			// »æÍ¼Ïß³Ì
 	private int currentFrame;
 	private float fly_x;
 	private float fly_y;
@@ -30,15 +31,15 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 	private float button_x;
 	private float button_y;
 	private float button_y2;
-	private float scalex;		
-	private float scaley;		
+	private float scalex;
+	private float scaley;
 	private float screen_width;
 	private float screen_height;
 	private boolean threadFlag;
 	private boolean isBtChange;
 	private boolean isBtChange2;
-	private String startGame = "å¼€å§‹æ¸¸æˆ";
-	private String exitGame = "é€€å‡ºæ¸¸æˆ";
+	private String startGame = "¿ªÊ¼ÓÎÏ·";
+	private String exitGame = "ÍË³öÓÎÏ·";
 	private MainActivity mainActivity;
 	private GameSoundPool sounds;
 	public ReadyView(Context context) {
@@ -57,7 +58,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 	@Override
 	public void surfaceChanged(SurfaceHolder arg0, int arg1, int arg2, int arg3) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -65,7 +66,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 		// TODO Auto-generated method stub
 		screen_width = this.getWidth();
 		screen_height = this.getHeight();
-		initBitmap(); // ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬ï¿½ï¿½Ô´
+		initBitmap(); // ³õÊ¼»¯Í¼Æ¬×ÊÔ´
 		threadFlag = true;
 		thread.start();
 	}
@@ -81,7 +82,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 		if(event.getAction() == MotionEvent.ACTION_DOWN && event.getPointerCount() == 1){
 			float x = event.getX();
 			float y = event.getY();
-			if(x > button_x && x < button_x + button.getWidth() 
+			if(x > button_x && x < button_x + button.getWidth()
 					&& y > button_y && y < button_y + button.getHeight())
 			{
 				sounds.playSound(1, 0);
@@ -89,7 +90,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 				drawSelf();
 				mainActivity.toMainView();
 			}
-			else if(x > button_x && x < button_x + button.getWidth() 
+			else if(x > button_x && x < button_x + button.getWidth()
 					&& y > button_y2 && y < button_y2 + button.getHeight())
 			{
 				sounds.playSound(1, 0);
@@ -103,7 +104,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 		else if(event.getAction() == MotionEvent.ACTION_MOVE){
 			float x = event.getX();
 			float y = event.getY();
-			if(x > button_x && x < button_x + button.getWidth() 
+			if(x > button_x && x < button_x + button.getWidth()
 					&& y > button_y && y < button_y + button.getHeight())
 			{
 				isBtChange = true;
@@ -111,7 +112,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 			else{
 				isBtChange = false;
 			}
-			if(x > button_x && x < button_x + button.getWidth() 
+			if(x > button_x && x < button_x + button.getWidth()
 					&& y > button_y2 && y < button_y2 + button.getHeight())
 			{
 				isBtChange2 = true;
@@ -128,7 +129,7 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 		}
 		return false;
 	}
-	// ï¿½ï¿½Ê¼ï¿½ï¿½Í¼Æ¬
+	// ³õÊ¼»¯Í¼Æ¬
 	public void initBitmap() {
 		background = BitmapFactory.decodeResource(getResources(), R.drawable.bg_01);
 		text = BitmapFactory.decodeResource(getResources(), R.drawable.text);
@@ -146,22 +147,22 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 		button_y = screen_height/2 + button.getHeight();
 		button_y2 = button_y + button.getHeight() + 40;
 	}
-	// ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½
+	// »æÍ¼º¯Êý
 	public void drawSelf() {
 		try {
 			canvas = sfh.lockCanvas();
-			canvas.drawColor(Color.BLACK); // ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½É«
+			canvas.drawColor(Color.BLACK); // »æÖÆ±³¾°É«
 			canvas.save();
-			// ï¿½ï¿½ï¿½ã±³ï¿½ï¿½Í¼Æ¬ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Ä±ï¿½ï¿½ï¿½
+			// ¼ÆËã±³¾°Í¼Æ¬ÓëÆÁÄ»µÄ±ÈÀý
 			canvas.scale(scalex, scaley, 0, 0);
-			canvas.drawBitmap(background, 0, 0, paint);   // ï¿½ï¿½ï¿½Æ±ï¿½ï¿½ï¿½Í¼
+			canvas.drawBitmap(background, 0, 0, paint);   // »æÖÆ±³¾°Í¼
 			canvas.restore();
-			canvas.drawBitmap(text, text_x, text_y, paint);  
+			canvas.drawBitmap(text, text_x, text_y, paint);
 			if(isBtChange){
-				canvas.drawBitmap(button2, button_x, button_y, paint);  
+				canvas.drawBitmap(button2, button_x, button_y, paint);
 			}
 			else{
-				canvas.drawBitmap(button, button_x, button_y, paint);  
+				canvas.drawBitmap(button, button_x, button_y, paint);
 			}
 			if(isBtChange2){
 				canvas.drawBitmap(button2, button_x, button_y2, paint);
@@ -170,11 +171,11 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 				canvas.drawBitmap(button, button_x, button_y2, paint);
 			}
 			paint.setTextSize(40);
-			Rect rect = new Rect();      
-			//ï¿½ï¿½ï¿½Ø°ï¿½Î§ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Ò»ï¿½ï¿½Rectï¿½ï¿½ï¿½ï¿½     
-			paint.getTextBounds(startGame, 0, startGame.length(), rect);    		   
-			float strwid = rect.width();    
-			float strhei = rect.height();   
+			Rect rect = new Rect();
+			//·µ»Ø°üÎ§Õû¸ö×Ö·û´®µÄ×îÐ¡µÄÒ»¸öRectÇøÓò     
+			paint.getTextBounds(startGame, 0, startGame.length(), rect);
+			float strwid = rect.width();
+			float strhei = rect.height();
 			canvas.drawText(startGame, screen_width/2 - strwid/2, button_y + button.getHeight()/2 + strhei/2, paint);
 			canvas.drawText(exitGame, screen_width/2 - strwid/2, button_y2 + button.getHeight()/2 + strhei/2, paint);
 			canvas.save();
@@ -185,10 +186,10 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 				currentFrame = 0;
 			}
 			canvas.restore();
-		} 
+		}
 		catch (Exception err) {
 			err.printStackTrace();
-		} 
+		}
 		finally {
 			if (canvas != null)
 				sfh.unlockCanvasAndPost(canvas);
@@ -214,10 +215,10 @@ public class ReadyView extends SurfaceView implements SurfaceHolder.Callback,Run
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		while (threadFlag) {	
+		while (threadFlag) {
 			long startTime = System.currentTimeMillis();
 			drawSelf();
-			long endTime = System.currentTimeMillis();	
+			long endTime = System.currentTimeMillis();
 			try {
 				if (endTime - startTime < 500)
 					Thread.sleep(500 - (endTime - startTime));

@@ -2,6 +2,7 @@ package com.example.beatplane;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -30,7 +31,7 @@ public class BossPlane extends GameObject{
 		this.score = 10000;
 		interval = 1;
 		bullets = new ArrayList<GameObject>();
-		for(int i = 0;i < 2;i++){
+		for(int i = 0;i < 10;i++){
 			BossBullet bullet = new BossBullet(resources);
 			bullets.add(bullet);
 		}
@@ -57,10 +58,11 @@ public class BossPlane extends GameObject{
 		isFire = false;
 		bloodVolume = 500;	
 		blood = bloodVolume;
-		object_x = screen_width/2 - object_width/2;
+		Random ran = new Random();
+		object_x = ran.nextInt((int)(screen_width - object_width));
+		this.speed = ran.nextInt(8) + 8 * arg3;
 		direction = DIR_LEFT;
 		currentFrame = 0;
-		this.speed = 6;	
 	}
 	//³õÊ¼»¯Í¼Æ¬
 	@Override
@@ -83,7 +85,7 @@ public class BossPlane extends GameObject{
 				}
 			}
 			interval++;
-			if(interval >= 8){
+			if(interval >= 10){
 				interval = 1;
 			}
 		}
@@ -101,7 +103,7 @@ public class BossPlane extends GameObject{
 				canvas.restore();
 				logic();
 				currentFrame++;
-				if(currentFrame >= 3){
+				if(currentFrame >= 4){
 					currentFrame = 0;
 				}
 				shoot(canvas);		//Éä»÷
